@@ -33,7 +33,7 @@ export default {
   data() {
     return {
       num_experiments: 1,
-      func_str: '',
+      func_str: '0.5 - (sin(sqrt(x**2 + y**2))**2 - 0.5) / (1 + 0.001 * (x**2 + y**2))**2',
       exec_chars: {
         num_generations: 1,
         population_size: 20,
